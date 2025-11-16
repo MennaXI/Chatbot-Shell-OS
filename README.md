@@ -1,7 +1,7 @@
 AI Assistant + Terminal:
 A Python project with a PyQt5 GUI that combines an AI assistant (powered by OpenAI) and a terminal emulator.
 ----------------------------------------------------------------------------------------------
-my_project/
+chatbot_project/
 ├── qtpyTerminal.py      # Terminal widget
 ├── shell.py             # Main AI + Terminal code
 ├── requirements.txt     # Python dependencies
@@ -10,7 +10,7 @@ my_project/
 ---------------------------------------------------------------------------------------------
 Installation:
 git clone https://github.com/MennaXI/Chatbot-Shell-OS
-cd MyProject
+cd chatbot_project
 -----------------------------------------------------------------------------------------------
 Create a virtual environment:
 python -m venv venv
