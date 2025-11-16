@@ -1,5 +1,6 @@
 AI Assistant + Terminal:
 A Python project with a PyQt5 GUI that combines an AI assistant (powered by OpenAI) and a terminal emulator.
+----------------------------------------------------------------------------------------------
 my_project/
 ├── qtpyTerminal.py      # Terminal widget
 ├── shell.py             # Main AI + Terminal code
@@ -7,7 +8,7 @@ my_project/
 ├── .env                 # Example environment variables (safe to share)
 └── README.md            # Project documentation
 ---------------------------------------------------------------------------------------------
-⚡ Installation
+Installation:
 git clone https://github.com/MeNna-Say/MyProject.git
 cd MyProject
 -----------------------------------------------------------------------------------------------
