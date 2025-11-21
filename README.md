@@ -1,14 +1,36 @@
 AI Assistant + Terminal:
 A Python project with a PyQt5 GUI that combines an AI assistant (powered by OpenAI) and a terminal emulator.
 ----------------------------------------------------------------------------------------------
-chatbot_project/
-├── src/                        # All project code here
-│   ├── __init__.py              # Empty file to make src a package
-│   ├── qtpyTerminal.py          # Terminal widget
-│   └── shell.py                 # Main AI + Terminal code
-├── requirements.txt             # Python dependencies
-├── .env                         # Example environment variables (safe to share)
-└── README.md                    # Project description
+shellos/
+├── main.py
+├── .env
+├── core/
+│   ├── shell.py
+│   ├── parser.py
+│   └── commands.py
+├── filesystem/
+│   ├── fs.py
+│   └── storage.py
+├── scheduler/
+│   ├── task_manager.py
+│   └── jobs.py
+├── memory/
+│   ├── context.py
+│   └── session.py
+├── ai/
+│   ├── assistant.py
+│   └── chat_engine.py   
+├── utils/
+│   ├── config.py
+│   ├── helpers.py
+│   └── error_handling.py
+├── logs/
+│   ├── app.log
+│   └── shell.log        
+└── tests/
+    ├── test_shell.py
+    ├── test_fs.py
+    ├── test_scheduler.py 
 
 ---------------------------------------------------------------------------------------------
 Installation:
@@ -22,7 +44,7 @@ Activate the environment in ubuntu:
 source venv/bin/activate
 -----------------------------------------------------------------------------------------------
 Running the Project:
-python src/shell.py
+python main.py
 ------------------------------------------------
 Notes:
 each user should create their own virtual environment.
